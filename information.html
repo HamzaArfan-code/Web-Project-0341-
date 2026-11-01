@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packora | Information</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="information.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <svg viewBox="0 0 32 32" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="16" cy="16" r="14.5"/><path d="M9 20c1-6 6-9 14-9-1 7-5 11-11 10"/><path d="M9 23l9-8"/></svg>
+        Packora
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="information.html" class="active">Information</a>
+        <a href="registration.html">Registration</a>
+        <a href="registration.html" class="btn btn-small">Get started <span aria-hidden="true">→</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="info-hero">
+      <div class="container info-hero-grid">
+        <div>
+          <p class="eyebrow">Packaging economics</p>
+          <h1>Know your costs. <span class="gold-italic">Protect your margins.</span></h1>
+        </div>
+        <p class="hero-note">Great packaging balances protection, presentation, and price. Here’s how the pieces come together.</p>
+      </div>
+    </section>
+
+    <!-- BUILDING BLOCKS -->
+    <section class="blocks container">
+      <p class="eyebrow">The building blocks</p>
+      <h2>Every detail has a <span class="gold-italic">cost—and a purpose.</span></h2>
+      <p class="section-sub">Understanding each component makes it easier to find smart savings without compromising the customer experience.</p>
+
+      <div class="block-grid">
+
+        <article class="block">
+          <div class="block-top">
+            <span class="block-num">01</span>
+            <span class="block-circle">
+              <svg viewBox="0 0 48 48" width="46" height="46" fill="none" stroke="#243B33" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M24 5l17 9v20l-17 9-17-9V14z"/><path d="M7 14l17 9 17-9M24 23v20"/></svg>
+            </span>
+          </div>
+          <div class="block-body">
+            <h3>Mailer box</h3>
+            <p class="spec">Kraft, 10 × 8 × 4 in</p>
+            <p class="price">$1.15 <small>/ order</small></p>
+          </div>
+        </article>
+
+        <article class="block">
+          <div class="block-top">
+            <span class="block-num">02</span>
+            <span class="block-circle"><span class="tissue"></span></span>
+          </div>
+          <div class="block-body">
+            <h3>Tissue wrap</h3>
+            <p class="spec">2 sheets, recycled</p>
+            <p class="price">$0.18 <small>/ order</small></p>
+          </div>
+        </article>
+
+        <article class="block">
+          <div class="block-top">
+            <span class="block-num">03</span>
+            <span class="block-circle"><span class="tape"></span></span>
+          </div>
+          <div class="block-body">
+            <h3>Paper tape</h3>
+            <p class="spec">24 inches</p>
+            <p class="price">$0.09 <small>/ order</small></p>
+          </div>
+        </article>
+
+        <article class="block">
+          <div class="block-top">
+            <span class="block-num">04</span>
+            <span class="block-circle"><span class="label-chip">PACKORA</span></span>
+          </div>
+          <div class="block-body">
+            <h3>Branded label</h3>
+            <p class="spec">Matte finish, 3 × 2 in</p>
+            <p class="price">$0.22 <small>/ order</small></p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- REAL-WORLD EXAMPLE -->
+    <section class="example">
+      <div class="container example-grid">
+
+        <div class="example-text">
+          <p class="eyebrow">A real-world example</p>
+          <h2>See how it <span class="gold-italic">adds up.</span></h2>
+          <p class="section-sub">A thoughtful packaging system doesn’t need to be expensive. Small adjustments across your materials can create meaningful savings at scale.</p>
+          <aside class="tip">
+            <span class="tip-icon">❦</span>
+            <p><strong>Packora tip</strong><br>Right-sizing this box could save 12% on filler and shipping costs.</p>
+          </aside>
+        </div>
+
+        <div class="calc">
+          <div class="calc-head">
+            <div>
+              <p class="calc-label">Sample calculation</p>
+              <h3>Monthly packaging cost</h3>
+            </div>
+            <span class="pill">500 orders / month</span>
+          </div>
+
+          <table>
+            <caption class="sr-only">Monthly packaging cost for 500 orders</caption>
+            <thead class="sr-only">
+              <tr><th>Item</th><th>Unit cost × orders</th><th>Total</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Mailer box</td><td>$1.15 × 500</td><td>$575.00</td></tr>
+              <tr><td>Tissue wrap</td><td>$0.18 × 500</td><td>$90.00</td></tr>
+              <tr><td>Paper tape</td><td>$0.09 × 500</td><td>$45.00</td></tr>
+              <tr><td>Branded label</td><td>$0.22 × 500</td><td>$110.00</td></tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="2"><strong>Estimated monthly total</strong><br><small>$1.64 per customer order</small></td>
+                <td class="grand-total">$820.00</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="index.html">
+        <svg viewBox="0 0 32 32" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="16" cy="16" r="14.5"/><path d="M9 20c1-6 6-9 14-9-1 7-5 11-11 10"/><path d="M9 23l9-8"/></svg>
+        Packora
+      </a>
+      <p>Smarter Packaging. Better Business.</p>
+      <p>© 2025 Packora</p>
+    </div>
+  </footer>
+
+</body>
+</html>
